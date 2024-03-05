@@ -1,0 +1,17 @@
+
+Request :
+
+{
+    "name": "bandineni",
+    "balance": 3000,
+    "mobileNumber": "8744994884"
+    
+}
+
+URL : http://localhost:9090/bank/createBankAccount
+
+Return Type : {
+    "message": "Account Created Successfully with Account Numner : 13",
+    "responseCode": 200,
+    "accountNumber": 13
+}
