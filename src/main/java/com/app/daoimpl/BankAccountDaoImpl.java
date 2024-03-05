@@ -27,7 +27,7 @@ public class BankAccountDaoImpl implements BankAccountDao {
 		BankAccountCreatedResponse response=new BankAccountCreatedResponse();
 		
 	   response.setAccountNumber(bankAccountResposne.getBankAccountNumber());
-	   response.setMessage("Account Created Successfully with Account Numner : "+bankAccountResposne.getBankAccountNumber());
+	   response.setMessage("Account Created  with Account Numner : "+bankAccountResposne.getBankAccountNumber());
 	   response.setResponseCode(200);
 		
 		

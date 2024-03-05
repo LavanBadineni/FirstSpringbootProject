@@ -6,12 +6,14 @@ public class BankAccountCreatedResponse {
    private String message;
    
    private Integer responseCode;
+
    
    private Long accountNumber;
 
 public BankAccountCreatedResponse() {
 	super();
 }
+
 
 public String getMessage() {
 	return message;
